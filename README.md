@@ -80,7 +80,6 @@ class build_unet(nn.Module):
     outputs = F.sigmoid(outputs)
     return outputs
 ```
-
 ## Loss function
 ```
 def dice_coef(y_true, y_pred):
