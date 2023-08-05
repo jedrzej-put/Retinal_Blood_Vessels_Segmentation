@@ -96,11 +96,10 @@ def dice_loss(y_true, y_pred):
 
 ## Training
 The training took 100 epochs. I used Google Colab in order to train our model (Nvidia T4). The training took no longer than 10 minutes.
-
-![alt text](https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/metrics.jpg?raw=true)
+<img src="https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/metrics.jpg" width="600" height="600"  title="xD">
 
 ## Results
-![alt text](https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/results.jpg?raw=true)
+<img src="https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/results.jpg" width="600" height="1000"  title="xD">
 
 ### Average metrics for the test set
 - Recall: 0.76
