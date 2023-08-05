@@ -87,8 +87,6 @@ def dice_coef(y_true, y_pred):
   smooth = 1e-15
   y_true = torch.flatten(y_true)
   y_pred = torch.flatten(y_pred)
-  # print(f" y_true: {y_true.shape}")
-  # print(f" y_pred: {y_pred.shape}")
   intersection = (y_true * y_pred).sum()
   return (2. * intersection + smooth) / (y_true.sum() + y_pred.sum() + smooth)
 
@@ -98,14 +96,15 @@ def dice_loss(y_true, y_pred):
 
 ## Training
 The training took 100 epochs. I used Google Colab in order to train our model (Nvidia T4). The training took no longer than 10 minutes.
+
 ![alt text](https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/metrics.jpg?raw=true)
 
 ## Results
+![alt text](https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/results.jpg?raw=true)
+
 ### Average metrics for the test set
 - Recall: 0.76
 - Precision: 0.86
-![alt text](https://github.com/jedrzej-put/Retinal_Blood_Vessels_Segmentation/blob/main/plots/results.jpg?raw=true)
-
 
 
 
