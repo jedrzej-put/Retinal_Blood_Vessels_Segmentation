@@ -1,4 +1,4 @@
-# Retinal_Blood_Vessels_Segmentation
+# Retinal Blood Vessels Segmentation
 
 ## U-net architecture
 ```
